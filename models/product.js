@@ -6,12 +6,16 @@ const p = path.join(
     'products.json'
 );
 const getProductsFromFile = (cb) => {
+    console.log(cb,'cb1')
     fs.readFile(p, (err, fileContent) => {
         if (err) {
             return cb([]);
         }
+        console.log(cb, 'cb2')
         cb(JSON.parse(fileContent));
+        console.log(cb, 'cb3')
     });
+    console.log(cb, 'cb4')
 }
 
 module.exports = class Product {
@@ -34,5 +38,12 @@ module.exports = class Product {
 
     static fetchAll(cb) {
         getProductsFromFile(cb);
+    }
+
+    static findById(id, cb) {
+        getProductsFromFile(products => {
+            const product = products.find(p => p.id === id);
+            cb(product)
+        })
     }
 }
