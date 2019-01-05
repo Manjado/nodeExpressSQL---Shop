@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="344f9264-5d68-442f-94db-3490ba67f02a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/controllers/admin.js" afterPath="$PROJECT_DIR$/controllers/admin.js" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" afterPath="$PROJECT_DIR$/routes/admin.js" />
-      <change beforePath="$PROJECT_DIR$/views/admin/add-product.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/admin/edit-product.ejs" afterPath="$PROJECT_DIR$/views/admin/edit-product.ejs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -226,7 +222,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-1616" />
     <option name="y" value="-1449" />
     <option name="width" value="2578" />
@@ -436,12 +432,12 @@
       <workItem from="1543666955167" duration="9420000" />
       <workItem from="1543768712242" duration="3307000" />
       <workItem from="1543827714805" duration="31000" />
-      <workItem from="1546680068260" duration="10873000" />
+      <workItem from="1546680068260" duration="11558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112057000" />
+    <option name="totallyTimeSpent" value="112742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,7 +449,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1616" y="-1449" width="2578" height="1408" extended-state="0" />
+    <frame x="-1616" y="-1449" width="2578" height="1408" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
